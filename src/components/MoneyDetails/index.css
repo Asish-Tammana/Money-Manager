@@ -1,0 +1,38 @@
+.details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.each-detail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  width: 32%;
+  border-radius: 20px;
+}
+
+.balance-container {
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+}
+
+.income-container {
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+}
+
+.expenses-container {
+  background-color: #cdfffa;
+  border: 2px solid #7c3aed;
+}
+
+.container-img {
+  height: 100px;
+  width: 100px;
+}
